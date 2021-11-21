@@ -35,7 +35,7 @@ class ExploreScreen extends StatelessWidget {
               // Container(
               //   height: 400,
               //   color: Colors.green,
-              //),
+              // ),
             ],
           );
         } else {
