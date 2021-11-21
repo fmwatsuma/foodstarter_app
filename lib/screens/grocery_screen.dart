@@ -18,7 +18,7 @@ class GroceryScreen extends StatelessWidget {
 return Scaffold(
   // 6
   floatingActionButton: FloatingActionButton(
-    child: const Icon(Icons.add,color: Colors.red,),
+    child: const Icon(Icons.add,color: Colors.white,),
     onPressed: () {
       // TODO 11: Present GroceryItemScreen
       // 1

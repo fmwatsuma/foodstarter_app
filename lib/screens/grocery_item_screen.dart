@@ -311,12 +311,13 @@ buildQuantityField(),
         ],
       ),
       // 9
-      Text('${DateFormat('yyyy-MM-dd').format(_dueDate)}'),
+      Text(DateFormat('yyyy-MM-dd').format(_dueDate)),
     ],
   );
 }
 
 
+  // ignore: todo
   // TODO: Add buildTimeField()
   Widget buildTimeField(BuildContext context) {
   return Column(
